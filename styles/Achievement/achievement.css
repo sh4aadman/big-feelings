@@ -1,0 +1,62 @@
+@font-face {
+    font-family: fac;
+    src: url(/styles/KGNeatlyPrintedSpaced.ttf);
+}
+
+@font-face {
+    font-family: btn;
+    src: url(/styles/MoreSugar-Regular.ttf);
+}
+
+body {
+    font-family: fac;
+    font-size: 2em;
+}
+
+#nav-bar {
+    display: flex;
+    gap: 2em;
+    list-style: none;
+    justify-content: center;
+    font-size: 3em;
+    background-color: blue;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 20px;
+}
+
+#nav-bar a {
+    text-decoration: none;
+    color: white;
+}
+
+#nav-bar a:hover {
+    text-decoration: underline 2px;
+}
+
+#footer {
+    background-color: black;
+    color: white;
+    padding: 1em;
+}
+
+#footer>ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 2em;
+}
+
+#footer a {
+    color: white;
+    text-decoration: none;
+}
+
+#footer a:hover {
+    text-decoration: underline 2px;
+}
+
+#footer p {
+    text-align: center;
+    margin-top: 2em;
+}
